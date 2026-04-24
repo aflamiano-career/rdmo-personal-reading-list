@@ -4,7 +4,9 @@ A modern reading tracker built with React 19 + React Router v7.
 
 ---
 
-→ [View Live Site](https://rdmo-personal-reading-list.vercel.app/)
+## [→ View Live Site](https://rdmo-personal-reading-list.vercel.app/)
+
+---
 
 ## Features
 
@@ -33,7 +35,7 @@ A modern reading tracker built with React 19 + React Router v7.
 
 ## Limitations
 
-This is a demo project and is not intended for production use.
+This is a **demo project** and is not intended for production use.
 
 - No real authentication — the app offers a guest mode (preloaded sample books) or a blank account mode
 - No backend or cloud sync — all state is stored in localStorage and lost if cleared
@@ -56,7 +58,7 @@ Warm bibliophile aesthetic: a cream-and-parchment base (`#FAF8F5`, `#F3F0EB`) wi
 
 ## CSS Naming Convention
 
-All styles follow BEM (Block Element Modifier):
+All styles follow **BEM (Block Element Modifier)**:
 
 ```
 block__element--modifier
@@ -68,10 +70,14 @@ block__element--modifier
 
 All styles live in a single `src/index.css` file, organized by block with section headers.
 
+## Credits
+
+Based on the [Personal Reading List](https://www.frontendmentor.io/challenges/personal-reading-list) challenge by [Frontend Mentor](https://www.frontendmentor.io).
+
 ## Tech Stack
 
 | Tool         | Version |
-|--------------|---------|
+| ------------ | ------- |
 | React        | 19      |
 | React Router | 7       |
 | Recharts     | 3       |
